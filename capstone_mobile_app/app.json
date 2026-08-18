@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Capstone Market",
+    "slug": "capstone-market",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#2563EB"
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.capstone.market"
+    },
+    "ios": {
+      "bundleIdentifier": "com.capstone.market"
+    }
+  }
+}
